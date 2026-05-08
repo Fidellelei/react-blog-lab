@@ -1,7 +1,7 @@
 import Article from "./Article"
 
-function ArticleList(props) {
-  const articleComponents = props.posts.map((post) => {
+function ArticleList({ posts }) {
+  const articleComponents = posts.map((post) => {
     return (
       <Article
         key={post.id}

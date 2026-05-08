@@ -1,13 +1,15 @@
-function About(props) {
+function About({ image, about }) {
+  const defaultImage =
+    "https://images.unsplash.com/photo-1516321318423-f06f85e504b3"
+
   return (
     <aside>
       <img
-        src={props.image}
+        src={image || defaultImage}
         alt="blog logo"
-        width="200"
       />
 
-      <p>{props.about}</p>
+      <p>{about}</p>
     </aside>
   )
 }

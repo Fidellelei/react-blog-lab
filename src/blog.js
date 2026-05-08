@@ -5,7 +5,7 @@ const blog = {
     "https://images.unsplash.com/photo-1516321318423-f06f85e504b3",
 
   about:
-    "A blog about web development, React, JavaScript, and software engineering.",
+    "A blog about React, JavaScript, and web development.",
 
   posts: [
     {
@@ -13,23 +13,23 @@ const blog = {
       title: "Getting Started with React",
       date: "May 1, 2026",
       preview:
-        "React helps developers build fast and interactive user interfaces."
+        "React helps developers build interactive user interfaces."
     },
 
     {
       id: 2,
-      title: "Understanding Props in React",
+      title: "Understanding Props",
       date: "May 3, 2026",
       preview:
-        "Props allow components to receive and display dynamic data."
+        "Props allow data to be passed between React components."
     },
 
     {
       id: 3,
-      title: "Why Developers Use Vite",
+      title: "Why Vite is Fast",
       date: "May 5, 2026",
       preview:
-        "Vite provides a much faster development experience for React projects."
+        "Vite provides a faster development experience for React apps."
     }
   ]
 }

@@ -6,7 +6,7 @@ import blog from "./blog"
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Header name={blog.name} />
 
       <About
