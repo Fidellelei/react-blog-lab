@@ -1,15 +1,12 @@
 import logo from "../assets/logo";
 
 function About({
-  image = logo,
+  image = "https://via.placeholder.com/215",
   about,
 }) {
   return (
     <aside>
-      <img
-        src={image}
-        alt="blog logo"
-      />
+      <img src={image} alt="blog logo" />
       <p>{about}</p>
     </aside>
   );
