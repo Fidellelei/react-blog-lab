@@ -1,6 +1,6 @@
 function Article({
   title,
-  date = "No date provided",
+  date = "January 1, 1970",
   preview,
 }) {
   return (

@@ -1,6 +1,6 @@
 const blog = {
   name: "My Personal Blog",
-  image: "https://via.placeholder.com/150",
+  image: "https://via.placeholder.com/215"
   about:
     "Welcome to my blog where I share thoughts about tech, life, and learning React.",
   posts: [

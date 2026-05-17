@@ -1,7 +1,5 @@
-import logo from "../assets/logo";
-
 function About({
-  image = logo,
+  image = "https://via.placeholder.com/215",
   about,
 }) {
   return (
