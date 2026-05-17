@@ -1,37 +1,27 @@
 const blog = {
-  name: "Fidel's Tech Blog",
-
-  image:
-    "https://images.unsplash.com/photo-1516321318423-f06f85e504b3",
-
-  about:
-    "A blog about React, JavaScript, and web development.",
-
+  name: "My Personal Blog",
+  image: "https://via.placeholder.com/150",
+  about: "Welcome to my blog where I share thoughts about tech, life, and learning React.",
   posts: [
     {
       id: 1,
-      title: "Getting Started with React",
-      date: "May 1, 2026",
-      preview:
-        "React helps developers build interactive user interfaces."
+      title: "Learning React Basics",
+      date: "2026-01-10",
+      preview: "React makes building UI components simple and powerful..."
     },
-
     {
       id: 2,
       title: "Understanding Props",
-      date: "May 3, 2026",
-      preview:
-        "Props allow data to be passed between React components."
+      date: "2026-02-05",
+      preview: "Props allow you to pass data between components efficiently..."
     },
-
     {
       id: 3,
-      title: "Why Vite is Fast",
-      date: "May 5, 2026",
-      preview:
-        "Vite provides a faster development experience for React apps."
+      title: "Why I Love JavaScript",
+      date: "2026-03-12",
+      preview: "JavaScript is flexible, powerful, and everywhere on the web..."
     }
   ]
-}
+};
 
-export default blog
+export default blog;
