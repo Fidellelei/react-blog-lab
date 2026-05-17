@@ -1,27 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites name="vitest tests" tests="1" failures="1" errors="0" time="0">
-    <testsuite name="src/__tests__/blog.test.jsx" timestamp="2026-05-17T12:17:36.740Z" hostname="DESKTOP-46T5G0R" tests="1" failures="1" errors="0" skipped="0" time="0">
-        <testcase classname="src/__tests__/blog.test.jsx" name="src/__tests__/blog.test.jsx" time="0">
-            <failure message="Transform failed with 1 error:
-/home/ubuntu/react-blog-lab/src/App.jsx:6:9: ERROR: The symbol &quot;About&quot; has already been declared" type="Error">
-Error: Transform failed with 1 error:
-/home/ubuntu/react-blog-lab/src/App.jsx:6:9: ERROR: The symbol &quot;About&quot; has already been declared
-  Plugin: vite:esbuild
-  File: /home/ubuntu/react-blog-lab/src/App.jsx:6:9
-  
-  The symbol &quot;About&quot; has already been declared
-  4  |  import ArticleList from &quot;./components/ArticleList&quot;;
-  5  |  
-  6  |  function About({
-     |           ^
-  7  |    image = &quot;https://via.placeholder.com/150&quot;,
-  8  |    about,
-  
- ❯ failureErrorWithLog node_modules/esbuild/lib/main.js:1748:15
- ❯ node_modules/esbuild/lib/main.js:1017:50
- ❯ responseCallbacks.&lt;computed&gt; node_modules/esbuild/lib/main.js:884:9
- ❯ handleIncomingPacket node_modules/esbuild/lib/main.js:939:12
- ❯ Socket.readFromStdout node_modules/esbuild/lib/main.js:862:7
+<testsuites name="vitest tests" tests="1" failures="1" errors="0" time="0.004130873">
+    <testsuite name="src/__tests__/blog.test.jsx" timestamp="2026-05-17T12:27:28.226Z" hostname="DESKTOP-46T5G0R" tests="1" failures="1" errors="0" skipped="0" time="0.004130873">
+        <testcase classname="src/__tests__/blog.test.jsx" name="renders app without crashing" time="0.003000746">
+            <failure message="React is not defined" type="ReferenceError">
+ReferenceError: React is not defined
+ ❯ src/__tests__/blog.test.jsx:5:10
             </failure>
         </testcase>
     </testsuite>
