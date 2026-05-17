@@ -1,4 +1,8 @@
-function Article({ title, date, preview }) {
+function Article({
+  title,
+  date = "No date provided",
+  preview,
+}) {
   return (
     <article>
       <h3>{title}</h3>

@@ -3,14 +3,16 @@ import Header from "./components/Header";
 import About from "./components/About";
 import ArticleList from "./components/ArticleList";
 
-function App() {
+function About({
+  image = "https://via.placeholder.com/150",
+  about,
+}) {
   return (
-    <div>
-      <Header name={blog.name} />
-      <About image={blog.image} about={blog.about} />
-      <ArticleList posts={blog.posts} />
-    </div>
+    <aside>
+      <img src={image} alt="blog logo" />
+      <p>{about}</p>
+    </aside>
   );
 }
 
-export default App;
+export default About;
